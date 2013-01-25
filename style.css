@@ -1,0 +1,159 @@
+@import url("../red-nylon/style.css");
+/* Theme Name:   Neonium Red Nylon
+ * Theme URI:    https://github.com/bugcloud/...
+ * Description:  The child theme of Red Nylon
+ * Author:       bugcloud
+ * Author URI:   http://bugcloud.com/
+ * Template:     red-nylon
+ * Version:      0.1.0 */
+/* Override red-nylon's common.css ---------- */
+div#header {
+  width: 1000px; }
+
+/* -------------------------------------- end */
+/* clearfix --------------------------------- */
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden; }
+
+* html .clearfix {
+  zoom: 1;
+  /* IE6 */ }
+
+*:first-child + html .clearfix {
+  zoom: 1;
+  /* IE7 */ }
+
+/* -------------------------------------- end */
+a,
+a:link,
+a:visited {
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease; }
+
+div#navigationWrapper {
+  border-bottom: none;
+  background-color: rgba(249, 249, 249, 0.8); }
+
+div#headerWrapper {
+  background: rgba(10, 10, 10, 0.9); }
+
+div#header h1 {
+  font-family: "Bevan", serif; }
+  div#header h1 a, div#header h1 a:link, div#header h1 a:visited {
+    color: white;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #e72623, 0 0 35px #e72623, 0 0 40px #e72623, 0 0 50px #e72623, 0 0 75px #e72623; }
+  div#header h1 a:hover,
+  div#header h1 a:active {
+    color: white;
+    text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623, 0 0 25px #e72623, 0 0 37px #e72623; }
+div#header h2 {
+  margin-left: 25px; }
+
+ul.dropdown li a, ul.dropdown li a:link, ul.dropdown li a:visited {
+  font-family: "Bevan", serif;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none; }
+ul.dropdown li a:hover,
+ul.dropdown li a:active {
+  color: white;
+  background-color: rgba(231, 38, 35, 0.4);
+  text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px white, 0 0 17px white;
+  -webkit-transition: none; }
+ul.dropdown li.current_page_item a, ul.dropdown li.current_page_item a:link, ul.dropdown li.current_page_item a:visited {
+  font-family: "Bevan", serif;
+  color: white;
+  background-color: rgba(10, 10, 10, 0.4);
+  text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623, 0 0 25px #e72623, 0 0 37px #e72623; }
+ul.dropdown li.current_page_item a:hover,
+ul.dropdown li.current_page_item a:active {
+  color: white;
+  background-color: rgba(10, 10, 10, 0.7);
+  text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623; }
+
+div#mainWrapper {
+  padding-top: 30px; }
+
+div#main {
+  width: 1000px; }
+
+div#entries {
+  width: 685px;
+  padding: 0 5px; }
+
+div.contents {
+  font-size: 14px;
+  line-height: 1.9; }
+
+div.contents a {
+  color: black;
+  text-decoration: underline; }
+div.contents a:hover {
+  color: white;
+  background-color: #333333;
+  text-decoration: none; }
+
+div.sidebar a {
+  color: #e72623;
+  text-decoration: none; }
+div.sidebar a:hover {
+  color: white;
+  background-color: #e72623; }
+
+div.entry h3 {
+  color: white;
+  text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623, 0 0 25px #e72623, 0 0 37px #e72623; }
+  div.entry h3 a, div.entry h3 a:link, div.entry h3 a:visited {
+    color: white;
+    text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623, 0 0 25px #e72623, 0 0 37px #e72623; }
+  div.entry h3 a:hover, div.entry h3 a:active {
+    color: white;
+    text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623; }
+
+.post-index {
+  display: block;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  background-color: transparent !important;
+  background-position: 0px 0px !important;
+  background-image: url() !important;
+  background-repeat: no-repeat !important;
+  border-bottom: 0px solid #cccccc !important;
+  font-weight: normal !important;
+  font-family: Georgia, Garamond, Arial !important;
+  font-size: 25px !important;
+  line-height: 25px !important;
+  color: #353535 !important;
+  text-shadow: silver 2px 2px 2px !important; }
+
+div.post,
+div.sidebarWrapper {
+  box-shadow: 0px 0px 15px -3px #333333; }
+
+div#pagination a, div#pagination a:link, div#pagination a:visited {
+  box-shadow: 0px 0px 10px 0px black; }
+div#pagination a:hover, div#pagination a:active {
+  box-shadow: 0px 0px 0px 0px black; }
+
+div#boxWrapper {
+  box-shadow: 0px 0px 8px 2px #333333; }
+
+div#copyright {
+  width: 450px; }

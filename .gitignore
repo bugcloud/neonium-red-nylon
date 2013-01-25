@@ -1,0 +1,13 @@
+*.o
+\#*#
+*#
+.#*
+.*~
+*~
+.DS_Store
+*.sw[po]
+.svn
+*.log
+.vim/bundle/
+.sass-cache/
+Guardfile
