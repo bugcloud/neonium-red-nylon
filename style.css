@@ -55,6 +55,8 @@ div#header h1 {
     color: white;
     text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623, 0 0 25px #e72623, 0 0 37px #e72623; }
 div#header h2 {
+  border-left: rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 0 0 rgba(255, 255, 255, 0.3);
   margin-left: 25px; }
 
 ul.dropdown li a, ul.dropdown li a:link, ul.dropdown li a:visited {
