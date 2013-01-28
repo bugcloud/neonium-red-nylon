@@ -119,13 +119,13 @@ div.sidebar a:hover {
 
 div.entry h3 {
   color: white;
-  text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623, 0 0 25px #e72623, 0 0 37px #e72623; }
+  text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623; }
   div.entry h3 a, div.entry h3 a:link, div.entry h3 a:visited {
     color: white;
-    text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623, 0 0 25px #e72623, 0 0 37px #e72623; }
+    text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623; }
   div.entry h3 a:hover, div.entry h3 a:active {
     color: white;
-    text-shadow: 0 0 1px white, 0 0 5px white, 0 0 7px white, 0 0 10px #e72623, 0 0 17px #e72623, 0 0 20px #e72623; }
+    text-shadow: 0 0 5px #e72623, 0 0 10px #e72623, 0 0 13px #e72623; }
 
 .post-index {
   display: block;
