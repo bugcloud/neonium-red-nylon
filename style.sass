@@ -5,7 +5,11 @@
  * Author:       bugcloud
  * Author URI:   http://bugcloud.com/
  * Template:     red-nylon
- * Version:      0.1.0*/
+ * Version:      0.1.0
+ * Attributes:   background patterns
+ *                 bas-02.png
+ *                   http://subtlepatterns.com/subtle-dots/
+ */
 
 @import url('../red-nylon/style.css')
 
@@ -168,8 +172,24 @@ div.entry h3
   text-shadow: #c0c0c0 2px 2px 2px!important
 
 div.post,
+div.entry
+  border-top-left-radius: 5px
+  border-top-right-radius: 5px
+
+div.post,
 div.sidebarWrapper
   box-shadow: 0px 0px 15px -3px #333
+
+div.title
+  background: url(images/base-02.png) repeat left top
+
+div.post-date
+  div.month
+    background-color: transparent
+    color: rgb(10, 10, 10)
+  div.day
+    background-color: transparent
+    color: rgb(151, 151, 151)
 
 div#pagination
   a, a:link, a:visited
